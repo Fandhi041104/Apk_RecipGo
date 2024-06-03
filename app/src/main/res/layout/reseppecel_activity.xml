@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resep Nasi"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pecel"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="19dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Bahan - Bahan:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="341dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="4dp"
+        android:text="4 porsi nasi putih.
+100 gram taoge, siangi.
+100 gram bayam, siangi.
+200 gram kangkung, siangi.
+200 gram kacang panjang, potong 2 cm.
+100 gram taoge pendek, seduh air panas, tiriskan.
+2 buah mentimun, cincang.
+70 gram daun kemangi.
+4 buah jeruk purut, belah 2 bagian.
+2 liter air, untuk merebus."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="279dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:text="Bahan - Bahan Sambel Pecel:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="4dp"
+        android:text="250 ml air panas.
+250 gram sambal pecel khas Madiun siap santap.
+1 sdm kecap manis."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Cara Membuat:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="337dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="4dp"
+        android:text="Untuk sambel pecel, lumatkan sambel pecel siap makan dengan air panas. Tambahkan dengan kecap manis, aduk, lalu sisihkan.
+Didihkan air, rebus sayuran secara terpisah, yang dimulai dari taoge, bayam, kangkung, dan kacang panjang. Jika sudah, tiriskan lalu sisihkan.
+Siapkan nasi di atas piring saji, jika perlu alaskan dengan daun pisang terlebih dulu (sesuai selera). Tuangkan sambal pecel di atasnya dan beri perasan jeruk purut sedikit (sesuai selera).
+Sajikan bersama pelengkap."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

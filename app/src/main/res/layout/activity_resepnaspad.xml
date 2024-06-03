@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="23dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahan - Bahan:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="314dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="8dp"
+        android:text="500 gram daging sapi yang dipotong-potong persegi 20 gram cabai rawit 6 buah bawang merah 3 siung bawang putih 3 butir kemiri  4 gelas santan kental 2 ruas lengkuas yang dimemarkan 2 sendok teh garam"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Cara Membuat:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="299dp"
+        android:layout_height="204dp"
+        android:text="Haluskan cabai rawit, bawang putih, merah, bubuk kunyit, kemiri, dan jahe secara bersamaan. Tambahkan daging, santan, bumbu halus, asam kandis, serai, daun jeruk, dan kunyit ke dalam panci yang sudah berisi air mendidih. Aduk hingga merata. Nyalakan api, masak api sedang dan harus diaduk terus. Ketika sudah mendidih, tambahkan garam, lalu aduk lagi tanpa berhenti."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+</androidx.constraintlayout.widget.ConstraintLayout>

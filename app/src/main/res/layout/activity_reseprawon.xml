@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/leftarrow"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="238dp"
+        android:layout_height="103dp"
+        android:text="500 gram daging sapi (potong dadu)
+3 lembar daun jeruk
+2 lembar daun salam
+2 batang sereh (geprek)
+1 ruang lengkuas (geprek)"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahan - Bahan:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Bumbu Halus:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="272dp"
+        android:layout_height="102dp"
+        android:text="12 siung bawang merah
+5 siung bawang putih
+3 buah kluwek (rendam di air panas)
+3 buah kemiri
+1 1/2 sdt ketumbar bubuk
+1 sdt merica
+1 ruas jahe
+1 ruas kunyit"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cara Membuat:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="331dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:text="Rebus daging hingga empuk. Pisahkan daging dengan kaldunya. Kaldu jangan di buang yaa
+2
+Blender bahan halus dan tumis hingga harum, masukan daun jeruk, sereh, daun salam, lengkuas dan daging
+3
+Panaskan kaldu sapi lalu campurkan semua bumbu yg sudah di tumis, tambahkan penyedap rasa sesuai selera. Koreksi rasa
+4
+Jika sudah pas bisa di hidangkan dengan bahan pelengkapnya.."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>

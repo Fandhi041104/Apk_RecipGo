@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bahan - Bahan:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="313dp"
+        android:layout_height="159dp"
+        android:text="500 gram daging sapi giling
+50 gram tepung tapioka
+1 butir telur
+3 siung bawang putih, haluskan
+1 sendok teh garam
+1/2 sendok teh merica bubuk
+1/2 sendok teh baking powder (opsional, untuk membuat bakso lebih kenyal)
+Air es secukupnya (sekitar 50 ml)"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Bahan - Bahan Untuk Kuah:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="323dp"
+        android:layout_height="116dp"
+        android:text="2 liter air
+3 siung bawang putih, haluskan
+1 batang daun bawang, potong-potong
+2 sendok makan bawang goreng
+Garam, gula, dan merica secukupnya
+Kaldu sapi bubuk secukupnya"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Cara Membuat:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="346dp"
+        android:layout_height="264dp"
+        android:text="Campurkan daging sapi giling, tepung tapioka, telur, bawang putih halus, garam, merica, dan baking powder (jika menggunakan) dalam satu wadah.
+Uleni adonan sambil tambahkan air es sedikit demi sedikit hingga adonan terasa lembut dan bisa dipulung. Rebus air dalam panci hingga mendidih.
+Ambil segenggam adonan bakso, lalu bentuk bulatan menggunakan tangan atau dengan bantuan dua sendok.
+Masukkan bakso yang sudah dibentuk ke dalam air mendidih.
+Masak hingga bakso mengapung ke permukaan, tanda bahwa bakso sudah matang. Angkat dan tiriskan. Rebus 2 liter air dalam panci.
+Tumis bawang putih hingga harum, lalu masukkan ke dalam air rebusan.
+Tambahkan daun bawang, bawang goreng, garam, gula, merica, dan kaldu sapi bubuk. Aduk rata.
+Cicipi kuah dan sesuaikan rasa sesuai selera."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
